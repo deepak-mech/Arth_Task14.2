@@ -1,5 +1,5 @@
 - name: "Configure Docker"
-  import_playbook: docker_1.yml
+  import_playbook: docker.yml
 
 - name: "Configure Web Server"
-  import_playbook: web_1.yml 
+  import_playbook: web.yml 
