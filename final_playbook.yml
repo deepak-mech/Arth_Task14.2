@@ -1,0 +1,5 @@
+- name: "Configure Docker"
+  import_playbook: docker_1.yml
+
+- name: "Configure Web Server"
+  import_playbook: web_1.yml 
